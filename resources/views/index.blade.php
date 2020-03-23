@@ -10,7 +10,10 @@
     </head>
     <body>
     
- 
+    @foreach($tasks as $task)
+        <h3>{{$task}}</h3>
+        
+        @endforeach
 
     
     </body>
